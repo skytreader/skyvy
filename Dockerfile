@@ -1,8 +1,8 @@
 FROM python:3.7.3-stretch
+MAINTAINER Chad Estioco chadestioco@gmail.com
 
 RUN apt-get update && apt-get install -y \
     	build-essential \
-    	git \
     	python3-dev \
     	ffmpeg \
     	libsdl2-dev \
